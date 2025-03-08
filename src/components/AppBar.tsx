@@ -2,12 +2,12 @@ import { SearchBar } from "./SearchBar";
 
 export function AppBar() {
 	return (
-		<div className="flex justify-between pt-3">
-			<div>Youtube</div>
+		<div className="flex justify-between p-3">
+			<div className="text-md inline-flex items-center">YouTube</div>
 			<div>
 				<SearchBar></SearchBar>
 			</div>
-			<div>Sign in</div>
+			<div className="text-md inline-flex items-center">Sign in</div>
 		</div>
 	);
 }
