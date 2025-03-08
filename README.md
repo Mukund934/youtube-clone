@@ -29,8 +29,8 @@ A simple YouTube frontend mimicking built with Next.js, React, TypeScript, and T
 
 ## 🚀 Demo
 
-[View Live Demo](#)  
-*(Add your demo link here)*
+[View Live Demo](https://youtube-clone-frontend-liart.vercel.app/)
+
 
 ## 🛠️ Installation
 
