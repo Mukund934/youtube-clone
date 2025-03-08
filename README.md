@@ -1,5 +1,7 @@
 # YouTube Clone
 
+![Preview Image](./preview.png)
+
 A simple YouTube frontend mimicking built with Next.js, React, TypeScript, and Tailwind CSS. This project includes basic components like video cards, a video grid, a search bar, and an app bar. It was created to practice and improve my Tailwind CSS and frontend skills.
 
 ## Table of Contents
