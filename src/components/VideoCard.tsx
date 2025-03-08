@@ -1,23 +1,21 @@
-export function VideoCard(props: any) {
+export function VideoCard(props) {
 	return (
 		<div>
-			<img src={props.thumbnail} className="rounded-xl"></img>
+			<img src={props.thumbnail} className="rounded-xl" alt="thumbnail" />
 			<div className="grid grid-cols-12 pt-2">
 				<div className="col-span-1 pl-3 pt-1">
 					<img
-						className={"rounded-full w-12 h-12"}
+						className="rounded-full w-12 h-12"
 						src={props.channel}
-					></img>
+						alt="channel"
+					/>
 				</div>
-
 				<div className="col-span-11 pl-2">
 					<div>{props.title}</div>
-
-					<div className="col-span-11 text-base text-gray-400">
+					<div className="text-base text-gray-400">
 						{props.author}
 					</div>
-
-					<div className="col-span-11 text-base text-gray-400">
+					<div className="text-base text-gray-400">
 						{props.views} | {props.timeStamp}
 					</div>
 				</div>
